@@ -1,27 +1,50 @@
 ============================================================
-Current Plugins (#)
+Current Plugins (16)
 ---------------------------------------------------------------------------------------------------------
-(#.) (Name) | (Pl Build) | (Compatibility) | (Main Page)
+(##.) (Name) | (Pl Build) | (Compatibility) | (Main Page)
  
-  >> (+Notes)
+>> (+Notes)
 
 ---------------------------------------------------------------------------------------------------------
 
-1. AutoAnnouncer 
+01. AutoAnnouncer 
   
-2. ClearLag
+02. ClearLag
 
-3. Essentials
+03. CompactNoCheatPlus
 
-4. EssentialsSpawn
+04. Essentials
 
-5. HeroChat
+05. EssentialsSpawn
 
-6. MaxBans
+06. HeroChat
 
-7. ModifyWorld
+07. MaxBans
 
-8. 
+08. mcMMO
+
+09. ModifyWorld
+
+10. NoCheatPlus
+
+11. PermissionsEX
+
+12. PreciousStones
+
+13. RealisticBackpacks
+
+14. Vault
+
+15. WorldEdit
+
+16. WorldGuard
 
 
 ============================================================
+Old Plugins: (0)
+---------------------------------------------------------------------------------------------------------
+(##) (Name) (Date Removed)
+>> (+Notes)
+
+
+ 
