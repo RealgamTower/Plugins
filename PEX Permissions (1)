@@ -1,0 +1,52 @@
+groups:
+  Operators:
+    permissions:
+    - bukkit.command.op
+    options:
+      rank: '1'
+  Owners:
+    options:
+      rank: '100'
+    permissions:
+    - essentials.*
+    prefix: '[Owner]'
+  SuperAdmins:
+    options:
+      rank: '200'
+    prefix: '[SuperAdmin]'
+  Admin:
+    options:
+      rank: '300'
+    prefix: '[Admin]'
+  SuperMod:
+    options:
+      rank: '400'
+    prefix: '[SuperMod]'
+  Mod:
+    options:
+      rank: '500'
+    prefix: '[Mod]'
+  Helper:
+    options:
+      rank: '600'
+    prefix: '[Helper]'
+  Donator:
+    options:
+      rank: '700'
+    prefix: '[Donator]'
+  Trainer:
+    default: true
+    options:
+      rank: '800'
+    prefix: '[Trainer]'
+  Perma-Banned:
+    options:
+      rank: '5000'
+users:
+  SkittleSpeakz:
+    group:
+    - Operator
+    - Owner
+  MLGamer97:
+    group:
+    - Operator
