@@ -3,6 +3,7 @@ groups:
     options:
       rank: '1'
     permissions:
+    - permissions.*
     - 
   Owners:
     options:
@@ -49,7 +50,7 @@ groups:
     options:
       rank: '800'
     permissions:
-    - 
+    - modifyworld.*
     prefix: '&7[Trainer] '
   Perma-Banned:
     options:
