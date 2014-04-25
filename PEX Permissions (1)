@@ -1,68 +1,52 @@
 groups:
-  Operators:
-    options:
-      rank: '1'
+  Trainer:
+    default: true
     permissions:
-    - permissions.*
-    - 
-  Owners:
+    - modifyworld.*
+    options:
+      rank: '700'
+  Helper:
+    options:
+      rank: '600'
+    prefix: '&d[Helper] '
+  Mod:
+    options:
+      rank: '500'
+    prefix: '&9[Mod] '
+  SuperMod:
+    options:
+      rank: '400'
+    prefix: '&3[SuperMod] '
+  Admin:
+    options:
+      rank: '300'
+    prefix: '&6[Admin] '
+  SuperAdmin:
+    options:
+      rank: '200'
+    prefix: '&4[SuperAdmin] '
+  Owner:
     options:
       rank: '100'
     prefix: '&5[Owner] '
-  SuperAdmins:
+  Op:
     options:
-      rank: '200'
+      rank: '1'
+      rank-ladder: Other
     permissions:
-    - 
-    prefix: '&4[SuperAdmin] '
-  Admins:
+    - permissions.*
+    - modifyworld*
+  Donator:
     options:
-      rank: '300'
-    permissions:
-    - 
-    prefix: '&6[Admin] '
-  SuperMods:
-    options:
-      rank: '400'
-    permissions:
-    - 
-    prefix: '&3[SuperMod] '
-  Mods:
-    options:
-      rank: '500'
-    permissions:
-    - 
-    prefix: '&9[Mod] '
-  Helpers:
-    options:
-      rank: '600'
-    permissions:
-    - 
-    prefix: '&d[Helper] '
-  Donators:
-    options:
-      rank: '700'
-    permissions:
-    - 
-    prefix: '[Donator] '
-  Trainers:
-    default: true
-    options:
-      rank: '800'
-    permissions:
-    - modifyworld.*
-    prefix: '&7[Trainer] '
+      rank: '650'
+      rank-ladder: Other
+      prefix: '&2[Donator]'
   Perma-Banned:
     options:
-      rank: '5000'
-    permissions:
-    - 
-    prefix: '&8[Perma-Banned] '
+      rank: '1000'
+      rank-ladder: Other
 users:
   SkittleSpeakz:
     group:
-    - Operators
-    - Owners
-  MLGamer97:
-    group:
-    - Operators
+    - Op
+    - Owner
