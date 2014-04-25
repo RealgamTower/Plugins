@@ -15,37 +15,37 @@ groups:
     permissions:
     - 
     prefix: '&4[SuperAdmin] '
-  Admin:
+  Admins:
     options:
       rank: '300'
     permissions:
     - 
     prefix: '&6[Admin] '
-  SuperMod:
+  SuperMods:
     options:
       rank: '400'
     permissions:
     - 
     prefix: '&3[SuperMod] '
-  Mod:
+  Mods:
     options:
       rank: '500'
     permissions:
     - 
     prefix: '&9[Mod] '
-  Helper:
+  Helpers:
     options:
       rank: '600'
     permissions:
     - 
     prefix: '&d[Helper] '
-  Donator:
+  Donators:
     options:
       rank: '700'
     permissions:
     - 
     prefix: '[Donator] '
-  Trainer:
+  Trainers:
     default: true
     options:
       rank: '800'
@@ -61,8 +61,8 @@ groups:
 users:
   SkittleSpeakz:
     group:
-    - Operator
-    - Owner
+    - Operators
+    - Owners
   MLGamer97:
     group:
-    - Operator
+    - Operators
