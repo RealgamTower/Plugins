@@ -1,47 +1,62 @@
 groups:
   Operators:
-    permissions:
-    - bukkit.command.op
     options:
       rank: '1'
+    permissions:
+    - 
   Owners:
     options:
       rank: '100'
-    permissions:
-    - essentials.*
-    prefix: '[Owner]'
+    prefix: '&5[Owner] '
   SuperAdmins:
     options:
       rank: '200'
-    prefix: '[SuperAdmin]'
+    permissions:
+    - 
+    prefix: '&4[SuperAdmin] '
   Admin:
     options:
       rank: '300'
-    prefix: '[Admin]'
+    permissions:
+    - 
+    prefix: '&6[Admin] '
   SuperMod:
     options:
       rank: '400'
-    prefix: '[SuperMod]'
+    permissions:
+    - 
+    prefix: '&3[SuperMod] '
   Mod:
     options:
       rank: '500'
-    prefix: '[Mod]'
+    permissions:
+    - 
+    prefix: '&9[Mod] '
   Helper:
     options:
       rank: '600'
-    prefix: '[Helper]'
+    permissions:
+    - 
+    prefix: '&d[Helper] '
   Donator:
     options:
       rank: '700'
-    prefix: '[Donator]'
+    permissions:
+    - 
+    prefix: '[Donator] '
   Trainer:
     default: true
     options:
       rank: '800'
-    prefix: '[Trainer]'
+    permissions:
+    - 
+    prefix: '&7[Trainer] '
   Perma-Banned:
     options:
       rank: '5000'
+    permissions:
+    - 
+    prefix: '&8[Perma-Banned] '
 users:
   SkittleSpeakz:
     group:
