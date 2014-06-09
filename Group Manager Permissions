@@ -2,12 +2,13 @@ groups:
   Trainers:
     default: true
     permissions:
+    - -modifyworld.items.throw.(
     - -modifyworld.items.have.(10412|327|326|259|373:16385|373:16417|373:16449|373:16388|373:16420|373:16452|373:16453|373:16421|373:16460|373:16428|407|373:16430|373:16462|373:16424|373:16456|373:16393|373:16425|373:16457|46|407)
     - modifyworld.*	
     info:  
       prefix: '&7<Trainer>'
       build: true
-      suffix: '&7'
+      suffix: '&7+'
   Donators:
     default: false
     inheritance:
@@ -15,7 +16,7 @@ groups:
     info:
       prefix: '&a<Donator>'
       build: true
-      suffix: '&a'
+      suffix: '&a+'
   Helpers:
     default: false
     permissions:
