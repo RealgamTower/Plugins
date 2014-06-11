@@ -1,0 +1,245 @@
+groups:
+  PermanentlyBanned:
+    permissions:
+    - -modifyworld.*
+    options:
+      rank: '9001'
+    prefix: '&0<Perma-Banned>'
+  Trainers:
+    default: true
+    permissions:
+    - herochat.pm
+    - herochat.speak.global
+    - herochat.speak.helpme
+    - herochat.speak.local
+    - herochat.speak.trade
+    - herochat.speak.staff
+    - herochat.autojoin.global
+    - herochat.autojoin.helpme
+    - herochat.autojoin.local
+    - herochat.autojoin.trade
+    - herochat.focus.global
+    - herochat.focus.helpme
+    - herochat.focus.local
+    - herochat.focus.trade
+    - herochat.force.join.global
+    - herochat.force.join.helpme
+    - herochat.force.join.local
+    - herochat.force.join.trade
+    - -modifyworld.damage.take.*
+    - -modifyworld.bucket.empty.(water|lava)
+    - -modifyworld.bucket.fill.(water|lava)
+    - modifyworld.*	
+    options:
+      rank: '6000'
+    prefix: '&7<Trainer>'
+  Donators:
+    permissions:
+    - herochat.pm
+    - herochat.speak.global
+    - herochat.speak.helpme
+    - herochat.speak.local
+    - herochat.speak.trade
+    - herochat.speak.staff
+    - herochat.autojoin.global
+    - herochat.autojoin.helpme
+    - herochat.autojoin.local
+    - herochat.autojoin.trade
+    - herochat.focus.global
+    - herochat.focus.helpme
+    - herochat.focus.local
+    - herochat.focus.trade
+    - herochat.force.join.global
+    - herochat.force.join.helpme
+    - herochat.force.join.local
+    - herochat.force.join.trade
+    - -modifyworld.damage.take.*
+    - -modifyworld.bucket.empty.(water|lava)
+    - -modifyworld.bucket.fill.(water|lava)
+    - modifyworld.*	
+    options:
+      rank: '5000'
+    prefix: '&a<Donator>'
+  Helpers:
+    permissions:
+    - herochat.pm
+    - herochat.speak.global
+    - herochat.speak.helpme
+    - herochat.speak.local
+    - herochat.speak.trade
+    - herochat.autojoin.global
+    - herochat.autojoin.helpme
+    - herochat.autojoin.local
+    - herochat.autojoin.trade
+    - herochat.focus.global
+    - herochat.focus.helpme
+    - herochat.focus.local
+    - herochat.focus.trade
+    - herochat.force.join.global
+    - herochat.force.join.helpme
+    - herochat.force.join.local
+    - herochat.force.join.trade
+    - -modifyworld.damage.take.*
+    - -modifyworld.bucket.empty.(water|lava)
+    - -modifyworld.bucket.fill.(water|lava)
+    - modifyworld.*	
+    options:
+      rank: '4000'
+      rank-ladder: Staff
+    prefix: '&d<Helper>'
+  Moderators:
+    permissions:
+    - herochat.pm
+    - herochat.emote.*
+    - herochat.speak.global
+    - herochat.speak.helpme
+    - herochat.speak.local
+    - herochat.speak.trade
+    - herochat.speak.staff
+    - herochat.kick.global
+    - herochat.kick.helpme
+    - herochat.kick.local
+    - herochat.kick.staff
+    - herochat.kick.trade
+    - herochat.mute.global
+    - herochat.mute.helpme
+    - herochat.mute.local
+    - herochat.mute.staff
+    - herochat.mute.trade
+    - herochat.ban.global
+    - herochat.ban.helpme
+    - herochat.ban.local
+    - herochat.ban.staff
+    - herochat.ban.trade
+    - herochat.autojoin.global
+    - herochat.autojoin.helpme
+    - herochat.autojoin.local
+    - herochat.autojoin.staff
+    - herochat.autojoin.trade
+    - herochat.focus.global
+    - herochat.focus.helpme
+    - herochat.focus.local
+    - herochat.focus.staff
+    - herochat.focus.trade
+    - herochat.force.join.global
+    - herochat.force.join.helpme
+    - herochat.force.join.local
+    - herochat.force.join.staff
+    - herochat.force.join.trade
+    - herochat.admin.unignore
+    - -modifyworld.damage.take.*
+    - -modifyworld.bucket.empty.(water|lava)
+    - -modifyworld.bucket.fill.(water|lava)
+    - modifyworld.*	
+    options:
+      rank: '3000'
+      rank-ladder: Staff
+    prefix: '&a<Donator>'
+  Administrators:
+    permissions:
+    - herochat.pm
+    - herochat.emote.*
+    - herochat.speak.global
+    - herochat.speak.helpme
+    - herochat.speak.local
+    - herochat.speak.trade
+    - herochat.speak.staff
+    - herochat.kick.global
+    - herochat.kick.helpme
+    - herochat.kick.local
+    - herochat.kick.staff
+    - herochat.kick.trade
+    - herochat.mute.global
+    - herochat.mute.helpme
+    - herochat.mute.local
+    - herochat.mute.staff
+    - herochat.mute.trade
+    - herochat.ban.global
+    - herochat.ban.helpme
+    - herochat.ban.local
+    - herochat.ban.staff
+    - herochat.ban.trade
+    - herochat.autojoin.global
+    - herochat.autojoin.helpme
+    - herochat.autojoin.local
+    - herochat.autojoin.staff
+    - herochat.autojoin.trade
+    - herochat.focus.global
+    - herochat.focus.helpme
+    - herochat.focus.local
+    - herochat.focus.staff
+    - herochat.focus.trade
+    - herochat.force.join.global
+    - herochat.force.join.helpme
+    - herochat.force.join.local
+    - herochat.force.join.staff
+    - herochat.force.join.trade
+    - herochat.admin.stealth
+    - herochat.admin.unignore
+    - herochat.color.colortype.channel
+    - -modifyworld.damage.take.*
+    - -modifyworld.bucket.empty.(water|lava)
+    - -modifyworld.bucket.fill.(water|lava)
+    - modifyworld.*	
+    options:
+      rank: '2000'
+      rank-ladder: Staff
+    prefix: '&6<Admin>'
+  Owners:
+    permissions:
+    - herochat.pm
+    - herochat.emote.*
+    - herochat.speak.council
+    - herochat.speak.global
+    - herochat.speak.helpme
+    - herochat.speak.local
+    - herochat.speak.trade
+    - herochat.speak.staff
+    - herochat.kick.council
+    - herochat.kick.global
+    - herochat.kick.helpme
+    - herochat.kick.local
+    - herochat.kick.staff
+    - herochat.kick.trade
+    - herochat.mute.council
+    - herochat.mute.global
+    - herochat.mute.helpme
+    - herochat.mute.local
+    - herochat.mute.staff
+    - herochat.mute.trade
+    - herochat.ban.council
+    - herochat.ban.global
+    - herochat.ban.helpme
+    - herochat.ban.local
+    - herochat.ban.staff
+    - herochat.ban.trade
+    - herochat.autojoin.council
+    - herochat.autojoin.global
+    - herochat.autojoin.helpme
+    - herochat.autojoin.local
+    - herochat.autojoin.staff
+    - herochat.autojoin.trade
+    - herochat.focus.council
+    - herochat.focus.global
+    - herochat.focus.helpme
+    - herochat.focus.local
+    - herochat.focus.staff
+    - herochat.focus.trade
+    - herochat.force.join.council
+    - herochat.force.join.global
+    - herochat.force.join.helpme
+    - herochat.force.join.local
+    - herochat.force.join.staff
+    - herochat.force.join.trade
+    - herochat.admin.stealth
+    - herochat.admin.unignore
+    - herochat.color.colortype.channel
+    - modifyworld.*	
+    options:
+      rank: '1000'
+      rank-ladder: Staff
+    prefix: '&5<Owner>'
+users:
+  SkittleSpeakz:
+    group:
+    - Trainers
